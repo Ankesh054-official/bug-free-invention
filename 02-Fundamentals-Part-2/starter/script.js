@@ -106,3 +106,5 @@ console.log(jonas);
 
 
 // console.log(typeOfElements);*/   
+
+// BUGS

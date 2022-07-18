@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 50px;;
+}
+
+h1{
+    font-size:40px;
+}
+
+.linkToProfile{
+    text-decoration: none;
+}
+
+#profile{
+    width: 50rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container{
+    border: 2px solid black;
+    border-radius: 10rem;
+    background-color: yellow;
+    margin-right: 25px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#company-logo{
+    width: 20rem;
+    height: 14rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 4.5rem;
+}
+
+#profile-changer{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+#details{
+    color: rgb(0, 0, 0);
+}
